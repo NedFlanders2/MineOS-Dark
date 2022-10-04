@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MineOSDark
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
+@version        1.0.4
 @description    MineOS Dark Theme
 @author         Ank
 @updateURL      https://github.com/NedFlanders2/MineOS-Dark/edit/main/StylusThemes/MineOS-Dark%20Theme.user.css
@@ -14,14 +14,6 @@
         --primary: #fff;
         --primary-low: #0088ccd6;
         --secondary: #222;
-    }
-
-    .d-header .title {
-        display:flex;
-        align-items:center;
-        height:100%;
-        position: relative;
-        right: 400px;
     }
 
     .d-header #site-logo {
