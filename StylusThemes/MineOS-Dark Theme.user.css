@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MineOSDark
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    MineOS Dark Theme
 @author         Ank
 ==/UserStyle== */
@@ -15,10 +15,16 @@
         --secondary: #222;
     }
 
-    .d-header #site-logo {
-        height: 2.667em;
+    .d-header .title {
+        display:flex;
+        align-items:center;
+        height:100%;
         position: relative;
         right: 400px;
+    }
+
+    .d-header #site-logo {
+        height: 2.667em;
         background: #55555505;
         filter: invert(100%);
     }
