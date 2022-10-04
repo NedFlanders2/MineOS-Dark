@@ -15,7 +15,15 @@
         --primary-low: #0088ccd6;
         --secondary: #222;
     }
-
+    
+    .d-header .title {
+        display:flex;
+        align-items:center;
+        height:100%;
+        padding: 10px;
+        /*! right: 400px; */
+    }
+  
     .d-header #site-logo {
         height: 2.667em;
         background: #55555505;
