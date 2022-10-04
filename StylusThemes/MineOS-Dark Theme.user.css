@@ -4,7 +4,6 @@
 @version        1.0.0
 @description    MineOS Dark
 @author         Ank
-@license        MIT
 ==/UserStyle== */
 @-moz-document domain("discourse.codeemo.com") {
   
@@ -186,5 +185,22 @@
 
     .select-kit .select-kit-row.is-highlighted {
         background: var(--primary-low);
+    }
+    pre code {
+        word-wrap: normal;
+        display: block;
+        padding: 0.5em;
+        color: var(--primary);
+        background: var(--header_background);
+        max-height: 500px
+    }
+    .hljs {
+        display: block;
+        padding: 0.5em;
+        color: var(--primary);
+    }
+    .alert.alert-info {
+        background-color: var(--secondary);
+        color: var(--primary);
     }
 }
